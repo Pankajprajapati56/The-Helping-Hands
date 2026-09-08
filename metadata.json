@@ -1,0 +1,6 @@
+{
+  "name": "Helping Hands",
+  "description": "The Helping Hands Management System 2026 for committee members, monthly contributions, reducing-balance loans, cash book, and reports.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
