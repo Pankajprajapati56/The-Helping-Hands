@@ -1,0 +1,30 @@
+{
+  "app_name": "Helping Hands Management System 2026",
+  "roles": [
+    "ADMIN",
+    "MEMBER"
+  ],
+  "login": "Member ID + password/PIN; Admin role has separate permissions",
+  "core_modules": [
+    "Dashboard",
+    "Members",
+    "Contribution",
+    "Loans",
+    "Expenses",
+    "Cash Book",
+    "Reports",
+    "Backup",
+    "Audit Log"
+  ],
+  "historical_contribution_rule": "Never edit an old rate; insert a new effective_from date.",
+  "example": [
+    [
+      "2026-01-01",
+      500
+    ],
+    [
+      "2026-08-01",
+      600
+    ]
+  ]
+}

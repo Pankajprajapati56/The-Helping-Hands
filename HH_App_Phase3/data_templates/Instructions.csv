@@ -1,0 +1,5 @@
+﻿"HELPING HANDS – CONTRIBUTION RULE",""
+"Purpose","Contribution History keeps old months unchanged when the contribution amount is increased."
+"How to use","Add a new row whenever the contribution changes. Enter the first date from which the new amount applies."
+"Example","01-Jan-2026 = ₹500; 01-Aug-2026 = ₹600. January–July remain ₹500 and August onward is ₹600."
+"Important","Do not overwrite old rows. Add a new effective-date row for every future change."

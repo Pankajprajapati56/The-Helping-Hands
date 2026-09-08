@@ -1,0 +1,25 @@
+﻿"THE HELPING HANDS
+MANAGEMENT SYSTEM 2026","","","","","","",""
+"","","","","","","",""
+"","","","","","","",""
+"Total Members","","Active Members","","Total Monthly Contribution","","Total Loan Given",""
+"=COUNTA(Members!C2:C31)","","=COUNTIF(Members!I2:I31,""Active"")","","=SUM(January!D5:D34)","","=SUM('Loan Register'!E2:E101)",""
+"","","","","","","",""
+"Total Principal Paid","","Outstanding Loan","","Interest This Month","","Cash Book Balance",""
+"=SUM('Loan Register'!F2:F101)","","=SUM('Loan Register'!G2:G101)","","=SUM(January!I5:I34)","","=IFERROR(LOOKUP(2,1/('Cash Book'!E2:E201<>""""),'Cash Book'!E2:E201),0)",""
+"","","","","","","",""
+"","","","","","","",""
+"कैसे इस्तेमाल करें:
+1) Members शीट में सदस्य के नाम भरें। Member ID अपने-आप बनेगा।
+2) हर महीने की शीट में केवल पीले कॉलम भरें।
+3) बाकी ऋण, ब्याज, पेनल्टी और कुल जमा अपने-आप निकलेंगे।
+4) Loan Register में नया लोन/भुगतान दर्ज करें।
+5) Cash Book में नकद आय-व्यय दर्ज करें।","","","","","","",""
+"","","","","","","",""
+"","","","","","","",""
+"","","","","","","",""
+"","","","","","","",""
+"","","","","","","",""
+"कुल खर्च (Cash Out)","=SUM('Cash Book'!$E$2:$E$201)","","","","","",""
+"वर्तमान कैश बैलेंस","=IFERROR(LOOKUP(2,1/('Cash Book'!$F$2:$F$201<>""""),'Cash Book'!$F$2:$F$201),0)","","","","","",""
+"अगस्त से मासिक अंशदान","=Settings!$B$6","","","","","",""
